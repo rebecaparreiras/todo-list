@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoDaily</title>
+    <link rel="shortcut icon" href="images/list-check.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="todo-list">
+        <div class="container">
+            <div class="todo-list-wrapper">
+                <h1>TodoDaily</h1>
+
+                <div class="input-grid">
+                    <input class="js-name-input" placeholder="Todo name" type="text">
+                    <input class="js-due-date-input | date-container" type="date">
+                    <button onclick="addTodo();" class="add-btn">Add</button>   
+                </div>
+                
+                <div class="js-todo-list | todo-grid"></div>
+
+                <p class="js-error-message"></p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
