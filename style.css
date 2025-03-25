@@ -181,7 +181,7 @@ textarea {
 input:focus,
 textarea:focus {
     font-weight: var(--fw-medium);
-    color: var(--clr-neutral-100);
+    color: var(--clr-primary-100);
 }
 
 .add-btn {
@@ -210,7 +210,7 @@ textarea:focus {
     background-color: transparent;
     border: solid 1px var(--clr-neutral-600);
     border-radius: 30px;
-    color: var(--clr-neutral-600);
+    color: var(--clr-primary-100);
     word-break: break-word; 
     overflow-wrap: break-word; 
     white-space: normal; 
@@ -221,7 +221,7 @@ textarea:focus {
     background-color: transparent;
     border: solid 1px var(--clr-neutral-600);
     border-radius: 30px;
-    color: var(--clr-neutral-600);
+    color: var(--clr-primary-100);
     cursor: pointer;
 }
 
