@@ -1,3 +1,4 @@
 <h1>TodoDaily</h1>
 
-![todo-list](https://github.com/user-attachments/assets/d667cebd-629e-4bc6-902e-0d8e57e33bf2)
+<img width="1271" alt="01-todo-list" src="https://github.com/user-attachments/assets/b166ddfc-bb60-4529-bf09-41494d614984" />
+
