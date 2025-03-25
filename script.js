@@ -52,7 +52,7 @@ function addTodo() {
     const errorElement = document.querySelector('.js-error-message');
 
     if (name === "" || dueDate === "") {
-        errorElement.textContent = "Preencha todos os campos.";
+        errorElement.textContent = "Please, fill out all fields.";
         return;
     }
     

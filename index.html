@@ -14,11 +14,21 @@
     <section class="todo-list">
         <div class="container">
             <div class="todo-list-wrapper">
-                <h1>TodoDaily</h1>
+                <div class="todo-title">
+                    <h1>
+                        Todo<br>
+                        <span>Daily</span>
+                    </h1>
+                    
+                    <p>
+                        Your list for daily goals.<br>
+                        Use without moderation :)
+                    </p>
+                </div>
 
                 <div class="input-grid">
-                    <input class="js-name-input" placeholder="Todo name" type="text">
-                    <input class="js-due-date-input | date-container" type="date">
+                    <input class="js-name-input" placeholder="Todo title" type="text">
+                    <input class="js-due-date-input" type="date">
                     <button onclick="addTodo();" class="add-btn">Add</button>   
                 </div>
                 
